@@ -17,10 +17,14 @@ PDF → split into chunks → create embeddings → store in FAISS → retrieve 
 
 Streamlit’s file uploader supports PDF upload, with a default per-file limit of 200 MB unless reconfigured.
 
-Install, bash:
+
+# Install, bash:
 ```
 pip install langchain langchain-community sentence-transformers faiss-cpu pypdf streamlit
 ```
+
+For a fully local MVP, keep embeddings local with all-MiniLM-L6-v2 and use any local or hosted chat model. Sentence Transformers documents that loading a pretrained model is straightforward with SentenceTransformer(...).
+
 
 # Release notes
 V 0.1 already proves the main idea: upload PDF, index it, retrieve relevant chunks. 
