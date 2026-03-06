@@ -25,7 +25,8 @@ Streamlit’s file uploader supports PDF upload, with a default per-file limit o
 pip install langchain langchain-community sentence-transformers faiss-cpu pypdf streamlit
 ```
 
-For a fully local MVP, keep embeddings local with all-MiniLM-L6-v2 and use any local or hosted chat model. Sentence Transformers documents that loading a pretrained model is straightforward with SentenceTransformer(...).
+For a fully local MVP, keep embeddings local with all-MiniLM-L6-v2 and use any local or hosted chat model. 
+Sentence Transformers documents that loading a pretrained model is straightforward with SentenceTransformer(...).
 
 
 # Release notes
