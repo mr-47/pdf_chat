@@ -29,6 +29,6 @@ For a fully local MVP, keep embeddings local with all-MiniLM-L6-v2 and use any l
 
 
 # Release notes
-V 0.1 already proves the main idea: upload PDF, index it, retrieve relevant chunks. 
+v0.1 - already proves the main idea: upload PDF, index it, retrieve relevant chunks. 
 The final step is replacing the displayed prompt with a real LLM call. 
 LangChain’s RAG guides use retrieval plus generation as the standard pattern.
