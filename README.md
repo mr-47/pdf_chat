@@ -21,3 +21,8 @@ Install, bash:
 ```
 pip install langchain langchain-community sentence-transformers faiss-cpu pypdf streamlit
 ```
+
+# Release notes
+V 0.1 already proves the main idea: upload PDF, index it, retrieve relevant chunks. 
+The final step is replacing the displayed prompt with a real LLM call. 
+LangChain’s RAG guides use retrieval plus generation as the standard pattern.
